@@ -144,7 +144,7 @@ class EqualPurse(gl.Contract):
     result_json: str
 
     def __init__(self, repository: str, voter_ids: list[str], wallets: list[Address], project_ids: list[str], project_meanings: list[str], seats: int):
-        normalized_wallets = [str(Address(a)).lower() for a in wallets]
+        normalized_wallets = [str(a if isinstance(a, Address) else Address(a)).lower() for a in wallets]
         if not re.fullmatch(r'[A-Za-z0-9-]+/[a-z0-9-]+', repository):
             fail('[EXPECTED] Invalid repository')
         if not 3 <= len(voter_ids) <= 6 or len(wallets) != len(voter_ids) or len(set(voter_ids)) != len(voter_ids) or len(set(normalized_wallets)) != len(wallets):

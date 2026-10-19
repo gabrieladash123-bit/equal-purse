@@ -81,6 +81,20 @@ def test_missing_ballots_cannot_close(election, direct_vm):
     assert election.get_state()['closed'] is False
 
 
+def test_constructor_accepts_native_address_objects(direct_deploy, direct_accounts, monkeypatch):
+    from gltest.direct import loader
+    original = loader._calldata_roundtrip_args
+    def live_typed_addresses(args, kwargs):
+        args, kwargs = original(args, kwargs)
+        if len(args) == 6:
+            from genlayer import Address
+            args = (*args[:2], [Address(a) for a in args[2]], *args[3:])
+        return args, kwargs
+    monkeypatch.setattr(loader, '_calldata_roundtrip_args', live_typed_addresses)
+    contract = deploy(direct_deploy, direct_accounts, CASES[0])
+    assert [v['wallet'] for v in contract.get_state()['voters']] == ['0x'+a.hex() for a in direct_accounts[:6]]
+
+
 @pytest.mark.parametrize('kind', ['few-voters','duplicate-voter','duplicate-wallet','zero-wallet',
                                  'bad-voter-id','few-projects','duplicate-project','short-meaning','zero-seats','too-many-seats'])
 def test_invalid_configuration_rejected(direct_deploy, direct_accounts, kind):
