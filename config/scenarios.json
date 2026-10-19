@@ -1,0 +1,5 @@
+[
+  {"id":"representation","voters":["amber","cobalt","jade","ochre","silver","violet"],"projects":["library","clinic","garden","transit"],"seats":3,"votes":[["APPROVE","APPROVE","APPROVE","REJECT"],["APPROVE","APPROVE","APPROVE","REJECT"],["APPROVE","APPROVE","APPROVE","REJECT"],["APPROVE","APPROVE","APPROVE","REJECT"],["REJECT","REJECT","REJECT","APPROVE"],["REJECT","REJECT","REJECT","APPROVE"]],"status":"FILLED","winners":["library","clinic","transit"]},
+  {"id":"capped-payment","voters":["amber","cobalt","jade","ochre"],"projects":["library","clinic","garden"],"seats":3,"votes":[["APPROVE","APPROVE","REJECT"],["APPROVE","REJECT","REJECT"],["APPROVE","REJECT","REJECT"],["REJECT","APPROVE","REJECT"]],"status":"UNDERFILLED","winners":["library","clinic"]},
+  {"id":"conditional-consent","voters":["amber","cobalt","jade"],"projects":["library","clinic","garden"],"seats":2,"votes":[["APPROVE","REJECT","REJECT"],["APPROVE","APPROVE","REJECT"],["REJECT","REJECT","UNKNOWN"]],"status":"REVIEW","winners":[]}
+]
