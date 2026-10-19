@@ -1,0 +1,170 @@
+{
+  "hash": "0x9bd4b41ae143f1227f210d080cc5775e127b6e9ffe98351bc6d49d51c371f45b",
+  "from_address": "0x7B1cb0Af0e5a4F4ed40d9bFc5948436e98997F58",
+  "to_address": "0x7bdD307b5f680092F754eC8ac7932A6e13fdEa46",
+  "data": {
+    "calldata": {
+      "readable": "{\"args\":[\"https://raw.githubusercontent.com/gabrieladash123-bit/equal-purse/4bada07e9ccfdac31ae2739d090f7d6d69cd3269/ballots/conditional-consent-amber.json\",\"935500592dca6b54d71aa82469ca1e27a855a4b26df4e6f2844335eaa8495664\",]\"method\":\"cast\"}"
+    }
+  },
+  "status": 7,
+  "result": 6,
+  "consensus_data": {
+    "votes": {
+      "0x17ac0CaefB18205c737e64ee582c9245A28ca1f9": "agree",
+      "0x2FcBC452425f2F1e102c5c04b4331fcB46ee1c00": "agree",
+      "0x40533175AfBbAee2c030F88259Afb5aEDbCF0E05": "agree",
+      "0x6a4179A851B3747A458baD2f089AB2EeFE0eBbAb": "agree",
+      "0x9244De5F20cB75A0c51d79A9A3208D00a99aFc10": "agree"
+    },
+    "leader_receipt": [
+      {
+        "execution_result": "ERROR",
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "leader",
+        "vote": null,
+        "calldata": {
+          "readable": "{\"args\":[\"https://raw.githubusercontent.com/gabrieladash123-bit/equal-purse/4bada07e9ccfdac31ae2739d090f7d6d69cd3269/ballots/conditional-consent-amber.json\",\"935500592dca6b54d71aa82469ca1e27a855a4b26df4e6f2844335eaa8495664\",]\"method\":\"cast\"}"
+        },
+        "eq_outputs": {},
+        "result": {
+          "status": "rollback",
+          "payload": "[EXPECTED] Voter only"
+        }
+      },
+      {
+        "execution_result": "ERROR",
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "validator",
+        "vote": "agree",
+        "calldata": {
+          "readable": "{\"args\":[\"https://raw.githubusercontent.com/gabrieladash123-bit/equal-purse/4bada07e9ccfdac31ae2739d090f7d6d69cd3269/ballots/conditional-consent-amber.json\",\"935500592dca6b54d71aa82469ca1e27a855a4b26df4e6f2844335eaa8495664\",]\"method\":\"cast\"}"
+        },
+        "result": {
+          "status": "rollback",
+          "payload": "[EXPECTED] Voter only"
+        }
+      }
+    ],
+    "validators": [
+      {
+        "execution_result": "ERROR",
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "validator",
+        "vote": "agree"
+      },
+      {
+        "execution_result": "ERROR",
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "validator",
+        "vote": "agree"
+      },
+      {
+        "execution_result": "ERROR",
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "validator",
+        "vote": "agree"
+      },
+      {
+        "execution_result": "ERROR",
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "validator",
+        "vote": "agree"
+      }
+    ]
+  },
+  "gaslimit": 1,
+  "nonce": 1,
+  "created_at": "2026-10-19T08:49:10.426169+00:00",
+  "leader_only": false,
+  "execution_mode": "NORMAL",
+  "origin_address": "0x7B1cb0Af0e5a4F4ed40d9bFc5948436e98997F58",
+  "triggered_on": null,
+  "appeal_validators_timeout": false,
+  "sim_config": {
+    "signed_rollup_transaction": "0xf9022901808307a12094b7278a61aa25c888815afc32ad3cc52ff24fe57580b901c427241a990000000000000000000000007b1cb0af0e5a4f4ed40d9bfc5948436e98997f580000000000000000000000007bdd307b5f680092f754ec8ac7932a6e13fdea460000000000000000000000000000000000000000000000000000000000000005000000000000000000000000000000000000000000000000000000000000000300000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000edf8ebb8e8160461726773158c0968747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6761627269656c61646173683132332d6269742f657175616c2d70757273652f346261646130376539636366646163333161653237333964303930663764366436396364333236392f62616c6c6f74732f636f6e646974696f6e616c2d636f6e73656e742d616d6265722e6a736f6e840439333535303035393264636136623534643731616138323436396361316532376138353561346232366466346536663238343433333565616138343935363634066d6574686f64246361737400000000000000000000000000000000000000008301e481a0ab99a48b7a4ff409df114eeec1084e58dcdbc9fb8e13b8dd2ed00f8157b1cdb8a0600ae193a39618cbc4d7c0369e63840062bd7a04fd5f5ae78787e3cc3cbc529a"
+  },
+  "value_credited": false,
+  "sender": "0x7B1cb0Af0e5a4F4ed40d9bFc5948436e98997F58",
+  "recipient": "0x7bdD307b5f680092F754eC8ac7932A6e13fdEa46",
+  "tx_id": "0x9bd4b41ae143f1227f210d080cc5775e127b6e9ffe98351bc6d49d51c371f45b",
+  "activator": "0x17ac0CaefB18205c737e64ee582c9245A28ca1f9",
+  "last_leader": "0x17ac0CaefB18205c737e64ee582c9245A28ca1f9",
+  "result_name": "MAJORITY_AGREE",
+  "num_of_rounds": "1",
+  "last_round": {
+    "round": "0",
+    "leader_index": "0",
+    "votes_committed": "5",
+    "votes_revealed": "5",
+    "appeal_bond": "0",
+    "rotations_left": "3",
+    "result": 6,
+    "round_validators": [
+      "0x17ac0CaefB18205c737e64ee582c9245A28ca1f9",
+      "0x6a4179A851B3747A458baD2f089AB2EeFE0eBbAb",
+      "0x2FcBC452425f2F1e102c5c04b4331fcB46ee1c00",
+      "0x40533175AfBbAee2c030F88259Afb5aEDbCF0E05",
+      "0x9244De5F20cB75A0c51d79A9A3208D00a99aFc10"
+    ],
+    "validator_votes_hash": [
+      "0x88318f0da17df2a01238f4fa0b4c8c1055adc10f174c1b4a4dde036852584975",
+      "0x391694b6d03630e9bf4d5e3bc8f9abb0110024fe70f428f0aa25fc027ad0d55f",
+      "0x6041da3a446b29ba7547f15c907c7129c62d3e53809e22eae3e2b6a51f1ae303",
+      "0x0d5830b6f500938660ba242a831d3c64eff1cab9b4e0f94b6d76dfdb210bc029",
+      "0x7e5d711e681af163ec3e971806356eff993e2792e27ddc0fb53938cbd9e54b3b"
+    ],
+    "validator_votes": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "validator_votes_name": [
+      "AGREE",
+      "AGREE",
+      "AGREE",
+      "AGREE",
+      "AGREE"
+    ]
+  },
+  "type": 2,
+  "status_name": "FINALIZED"
+}

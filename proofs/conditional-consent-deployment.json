@@ -1,0 +1,82 @@
+{
+  "id": "conditional-consent",
+  "contract": "0x7bdD307b5f680092F754eC8ac7932A6e13fdEa46",
+  "transaction": "0xc0dd5ffa04d73cb2232a880cb3740fe3fe1ab273c6755a90d2f1464c1806820a",
+  "reports": [
+    {
+      "voter": "amber",
+      "url": "https://raw.githubusercontent.com/gabrieladash123-bit/equal-purse/4bada07e9ccfdac31ae2739d090f7d6d69cd3269/ballots/conditional-consent-amber.json",
+      "sha256": "935500592dca6b54d71aa82469ca1e27a855a4b26df4e6f2844335eaa8495664",
+      "source": {
+        "voter": "amber",
+        "statements": [
+          "I explicitly approve selecting the library project for this committee.",
+          "I explicitly reject selecting the clinic project for this committee.",
+          "I explicitly reject selecting the garden project for this committee."
+        ]
+      }
+    },
+    {
+      "voter": "cobalt",
+      "url": "https://raw.githubusercontent.com/gabrieladash123-bit/equal-purse/4bada07e9ccfdac31ae2739d090f7d6d69cd3269/ballots/conditional-consent-cobalt.json",
+      "sha256": "805d45ff9c8124c6c69532fe8e6d66c15dd64f38ac90bd203a6fe3e6a45ff180",
+      "source": {
+        "voter": "cobalt",
+        "statements": [
+          "I explicitly approve selecting the library project for this committee.",
+          "I explicitly approve selecting the clinic project for this committee.",
+          "I explicitly reject selecting the garden project for this committee."
+        ]
+      }
+    },
+    {
+      "voter": "jade",
+      "url": "https://raw.githubusercontent.com/gabrieladash123-bit/equal-purse/4bada07e9ccfdac31ae2739d090f7d6d69cd3269/ballots/conditional-consent-jade.json",
+      "sha256": "941eb15a046a7ec4a71317b93fee9bd3bc2632ba8849fb6cbfa3ce74641c2574",
+      "source": {
+        "voter": "jade",
+        "statements": [
+          "I explicitly reject selecting the library project for this committee.",
+          "I explicitly reject selecting the clinic project for this committee.",
+          "I would approve selecting the garden project only if an external grant is awarded. The grant decision is still pending, so my approval is conditional."
+        ]
+      }
+    }
+  ],
+  "fixture_revision": "4bada07e9ccfdac31ae2739d090f7d6d69cd3269",
+  "source_sha256": "6377139473d89477b745221c8d1eda864c33cc3621c0429e8097ab95ee8da993",
+  "network": "studionet",
+  "chain_id": 61999,
+  "callers": [
+    "0x9008a9f2c58c91c35a60504b9cc4523feb45fd27",
+    "0x1d93abb3351e8c16f59d1d63053c7a4594ca0a4e",
+    "0x7573265254b0fd7e97eb2827d54f8f9eaaa6391f",
+    "0xf56a27b37c2c09baeb7d18d21a1c74352982b85b",
+    "0xb8f456f0b6d91640192d37cb5dc424126fbbba4a",
+    "0x7b1cb0af0e5a4f4ed40d9bfc5948436e98997f58"
+  ],
+  "args": [
+    "gabrieladash123-bit/equal-purse",
+    [
+      "amber",
+      "cobalt",
+      "jade"
+    ],
+    [
+      "0x9008a9f2c58c91c35a60504b9cc4523feb45fd27",
+      "0x1d93abb3351e8c16f59d1d63053c7a4594ca0a4e",
+      "0x7573265254b0fd7e97eb2827d54f8f9eaaa6391f"
+    ],
+    [
+      "library",
+      "clinic",
+      "garden"
+    ],
+    [
+      "Select the library project for the committee.",
+      "Select the clinic project for the committee.",
+      "Select the garden project for the committee."
+    ],
+    2
+  ]
+}

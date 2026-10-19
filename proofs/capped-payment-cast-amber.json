@@ -1,0 +1,127 @@
+{
+  "label": "capped-payment-cast-amber",
+  "method": "cast",
+  "args": [
+    "https://raw.githubusercontent.com/gabrieladash123-bit/equal-purse/4bada07e9ccfdac31ae2739d090f7d6d69cd3269/ballots/capped-payment-amber.json",
+    "e8393878a806e0fbb4903f6be7f821698254e80ca16c314904d5083952964e19"
+  ],
+  "caller": 0,
+  "contract": "0xD1842F687163290610778539ea28A9D407d9F6ff",
+  "transaction": "0xe75998856e55b3144f36aedaa6c7809929f50c4c6a6d277b1a45b4dde13a02fc",
+  "sender": "0x9008a9f2c58c91c35a60504b9cc4523feb45fd27",
+  "state_before": {
+    "ballots": [],
+    "closed": false,
+    "projects": [
+      {
+        "id": "library",
+        "meaning": "Select the library project for the committee."
+      },
+      {
+        "id": "clinic",
+        "meaning": "Select the clinic project for the committee."
+      },
+      {
+        "id": "garden",
+        "meaning": "Select the garden project for the committee."
+      }
+    ],
+    "repository": "gabrieladash123-bit/equal-purse",
+    "result": {},
+    "seats": 3,
+    "voters": [
+      {
+        "id": "amber",
+        "wallet": "0x9008a9f2c58c91c35a60504b9cc4523feb45fd27"
+      },
+      {
+        "id": "cobalt",
+        "wallet": "0x1d93abb3351e8c16f59d1d63053c7a4594ca0a4e"
+      },
+      {
+        "id": "jade",
+        "wallet": "0x7573265254b0fd7e97eb2827d54f8f9eaaa6391f"
+      },
+      {
+        "id": "ochre",
+        "wallet": "0xf56a27b37c2c09baeb7d18d21a1c74352982b85b"
+      }
+    ]
+  },
+  "state": {
+    "ballots": [
+      {
+        "choices": [
+          {
+            "anchors": [
+              0
+            ],
+            "project": "library",
+            "vote": "APPROVE"
+          },
+          {
+            "anchors": [
+              1
+            ],
+            "project": "clinic",
+            "vote": "APPROVE"
+          },
+          {
+            "anchors": [
+              2
+            ],
+            "project": "garden",
+            "vote": "REJECT"
+          }
+        ],
+        "sha256": "e8393878a806e0fbb4903f6be7f821698254e80ca16c314904d5083952964e19",
+        "source": {
+          "statements": [
+            "I explicitly approve selecting the library project for this committee.",
+            "I explicitly approve selecting the clinic project for this committee.",
+            "I explicitly reject selecting the garden project for this committee."
+          ],
+          "voter": "amber"
+        },
+        "url": "https://raw.githubusercontent.com/gabrieladash123-bit/equal-purse/4bada07e9ccfdac31ae2739d090f7d6d69cd3269/ballots/capped-payment-amber.json",
+        "voter": "amber"
+      }
+    ],
+    "closed": false,
+    "projects": [
+      {
+        "id": "library",
+        "meaning": "Select the library project for the committee."
+      },
+      {
+        "id": "clinic",
+        "meaning": "Select the clinic project for the committee."
+      },
+      {
+        "id": "garden",
+        "meaning": "Select the garden project for the committee."
+      }
+    ],
+    "repository": "gabrieladash123-bit/equal-purse",
+    "result": {},
+    "seats": 3,
+    "voters": [
+      {
+        "id": "amber",
+        "wallet": "0x9008a9f2c58c91c35a60504b9cc4523feb45fd27"
+      },
+      {
+        "id": "cobalt",
+        "wallet": "0x1d93abb3351e8c16f59d1d63053c7a4594ca0a4e"
+      },
+      {
+        "id": "jade",
+        "wallet": "0x7573265254b0fd7e97eb2827d54f8f9eaaa6391f"
+      },
+      {
+        "id": "ochre",
+        "wallet": "0xf56a27b37c2c09baeb7d18d21a1c74352982b85b"
+      }
+    ]
+  }
+}

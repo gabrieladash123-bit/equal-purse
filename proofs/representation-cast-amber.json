@@ -1,0 +1,159 @@
+{
+  "label": "representation-cast-amber",
+  "method": "cast",
+  "args": [
+    "https://raw.githubusercontent.com/gabrieladash123-bit/equal-purse/4bada07e9ccfdac31ae2739d090f7d6d69cd3269/ballots/representation-amber.json",
+    "c892b929773aad7e95d99a825fe7640c484a3a55a8db550920e7d0c65c0d9cac"
+  ],
+  "caller": 0,
+  "contract": "0x02789e48c9dAF370A2b4d4160BfFEc3edb65e2DC",
+  "transaction": "0xc60a8ce4cef4708a23d4245628eb450c6144e7478716fd87e2767f00d9ec3cbd",
+  "sender": "0x9008a9f2c58c91c35a60504b9cc4523feb45fd27",
+  "state_before": {
+    "ballots": [],
+    "closed": false,
+    "projects": [
+      {
+        "id": "library",
+        "meaning": "Select the library project for the committee."
+      },
+      {
+        "id": "clinic",
+        "meaning": "Select the clinic project for the committee."
+      },
+      {
+        "id": "garden",
+        "meaning": "Select the garden project for the committee."
+      },
+      {
+        "id": "transit",
+        "meaning": "Select the transit project for the committee."
+      }
+    ],
+    "repository": "gabrieladash123-bit/equal-purse",
+    "result": {},
+    "seats": 3,
+    "voters": [
+      {
+        "id": "amber",
+        "wallet": "0x9008a9f2c58c91c35a60504b9cc4523feb45fd27"
+      },
+      {
+        "id": "cobalt",
+        "wallet": "0x1d93abb3351e8c16f59d1d63053c7a4594ca0a4e"
+      },
+      {
+        "id": "jade",
+        "wallet": "0x7573265254b0fd7e97eb2827d54f8f9eaaa6391f"
+      },
+      {
+        "id": "ochre",
+        "wallet": "0xf56a27b37c2c09baeb7d18d21a1c74352982b85b"
+      },
+      {
+        "id": "silver",
+        "wallet": "0xb8f456f0b6d91640192d37cb5dc424126fbbba4a"
+      },
+      {
+        "id": "violet",
+        "wallet": "0x7b1cb0af0e5a4f4ed40d9bfc5948436e98997f58"
+      }
+    ]
+  },
+  "state": {
+    "ballots": [
+      {
+        "choices": [
+          {
+            "anchors": [
+              0
+            ],
+            "project": "library",
+            "vote": "APPROVE"
+          },
+          {
+            "anchors": [
+              1
+            ],
+            "project": "clinic",
+            "vote": "APPROVE"
+          },
+          {
+            "anchors": [
+              2
+            ],
+            "project": "garden",
+            "vote": "APPROVE"
+          },
+          {
+            "anchors": [
+              3
+            ],
+            "project": "transit",
+            "vote": "REJECT"
+          }
+        ],
+        "sha256": "c892b929773aad7e95d99a825fe7640c484a3a55a8db550920e7d0c65c0d9cac",
+        "source": {
+          "statements": [
+            "I explicitly approve selecting the library project for this committee.",
+            "I explicitly approve selecting the clinic project for this committee.",
+            "I explicitly approve selecting the garden project for this committee.",
+            "I explicitly reject selecting the transit project for this committee."
+          ],
+          "voter": "amber"
+        },
+        "url": "https://raw.githubusercontent.com/gabrieladash123-bit/equal-purse/4bada07e9ccfdac31ae2739d090f7d6d69cd3269/ballots/representation-amber.json",
+        "voter": "amber"
+      }
+    ],
+    "closed": false,
+    "projects": [
+      {
+        "id": "library",
+        "meaning": "Select the library project for the committee."
+      },
+      {
+        "id": "clinic",
+        "meaning": "Select the clinic project for the committee."
+      },
+      {
+        "id": "garden",
+        "meaning": "Select the garden project for the committee."
+      },
+      {
+        "id": "transit",
+        "meaning": "Select the transit project for the committee."
+      }
+    ],
+    "repository": "gabrieladash123-bit/equal-purse",
+    "result": {},
+    "seats": 3,
+    "voters": [
+      {
+        "id": "amber",
+        "wallet": "0x9008a9f2c58c91c35a60504b9cc4523feb45fd27"
+      },
+      {
+        "id": "cobalt",
+        "wallet": "0x1d93abb3351e8c16f59d1d63053c7a4594ca0a4e"
+      },
+      {
+        "id": "jade",
+        "wallet": "0x7573265254b0fd7e97eb2827d54f8f9eaaa6391f"
+      },
+      {
+        "id": "ochre",
+        "wallet": "0xf56a27b37c2c09baeb7d18d21a1c74352982b85b"
+      },
+      {
+        "id": "silver",
+        "wallet": "0xb8f456f0b6d91640192d37cb5dc424126fbbba4a"
+      },
+      {
+        "id": "violet",
+        "wallet": "0x7b1cb0af0e5a4f4ed40d9bfc5948436e98997f58"
+      }
+    ]
+  }
+}

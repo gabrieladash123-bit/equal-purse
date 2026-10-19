@@ -1,0 +1,97 @@
+{
+  "id": "capped-payment",
+  "contract": "0xD1842F687163290610778539ea28A9D407d9F6ff",
+  "transaction": "0x21d8bac2c969d01a2ff703eca867d0d84f34e7ea7095ce42920c1c282fef70b7",
+  "reports": [
+    {
+      "voter": "amber",
+      "url": "https://raw.githubusercontent.com/gabrieladash123-bit/equal-purse/4bada07e9ccfdac31ae2739d090f7d6d69cd3269/ballots/capped-payment-amber.json",
+      "sha256": "e8393878a806e0fbb4903f6be7f821698254e80ca16c314904d5083952964e19",
+      "source": {
+        "voter": "amber",
+        "statements": [
+          "I explicitly approve selecting the library project for this committee.",
+          "I explicitly approve selecting the clinic project for this committee.",
+          "I explicitly reject selecting the garden project for this committee."
+        ]
+      }
+    },
+    {
+      "voter": "cobalt",
+      "url": "https://raw.githubusercontent.com/gabrieladash123-bit/equal-purse/4bada07e9ccfdac31ae2739d090f7d6d69cd3269/ballots/capped-payment-cobalt.json",
+      "sha256": "8193ed5503ab394895dcd9f264c58443e165df0ab4969c1b83f2f146d7c176d6",
+      "source": {
+        "voter": "cobalt",
+        "statements": [
+          "I explicitly approve selecting the library project for this committee.",
+          "I explicitly reject selecting the clinic project for this committee.",
+          "I explicitly reject selecting the garden project for this committee."
+        ]
+      }
+    },
+    {
+      "voter": "jade",
+      "url": "https://raw.githubusercontent.com/gabrieladash123-bit/equal-purse/4bada07e9ccfdac31ae2739d090f7d6d69cd3269/ballots/capped-payment-jade.json",
+      "sha256": "86040a8fefcb197b08cea972291b861515794aeafbcaa1fd837b3276aee7516c",
+      "source": {
+        "voter": "jade",
+        "statements": [
+          "I explicitly approve selecting the library project for this committee.",
+          "I explicitly reject selecting the clinic project for this committee.",
+          "I explicitly reject selecting the garden project for this committee."
+        ]
+      }
+    },
+    {
+      "voter": "ochre",
+      "url": "https://raw.githubusercontent.com/gabrieladash123-bit/equal-purse/4bada07e9ccfdac31ae2739d090f7d6d69cd3269/ballots/capped-payment-ochre.json",
+      "sha256": "82470df031bc87a35abe3f0e9020c201258ef13233d08a4a230c5c08a37c4ffc",
+      "source": {
+        "voter": "ochre",
+        "statements": [
+          "I explicitly reject selecting the library project for this committee.",
+          "I explicitly approve selecting the clinic project for this committee.",
+          "I explicitly reject selecting the garden project for this committee."
+        ]
+      }
+    }
+  ],
+  "fixture_revision": "4bada07e9ccfdac31ae2739d090f7d6d69cd3269",
+  "source_sha256": "6377139473d89477b745221c8d1eda864c33cc3621c0429e8097ab95ee8da993",
+  "network": "studionet",
+  "chain_id": 61999,
+  "callers": [
+    "0x9008a9f2c58c91c35a60504b9cc4523feb45fd27",
+    "0x1d93abb3351e8c16f59d1d63053c7a4594ca0a4e",
+    "0x7573265254b0fd7e97eb2827d54f8f9eaaa6391f",
+    "0xf56a27b37c2c09baeb7d18d21a1c74352982b85b",
+    "0xb8f456f0b6d91640192d37cb5dc424126fbbba4a",
+    "0x7b1cb0af0e5a4f4ed40d9bfc5948436e98997f58"
+  ],
+  "args": [
+    "gabrieladash123-bit/equal-purse",
+    [
+      "amber",
+      "cobalt",
+      "jade",
+      "ochre"
+    ],
+    [
+      "0x9008a9f2c58c91c35a60504b9cc4523feb45fd27",
+      "0x1d93abb3351e8c16f59d1d63053c7a4594ca0a4e",
+      "0x7573265254b0fd7e97eb2827d54f8f9eaaa6391f",
+      "0xf56a27b37c2c09baeb7d18d21a1c74352982b85b"
+    ],
+    [
+      "library",
+      "clinic",
+      "garden"
+    ],
+    [
+      "Select the library project for the committee.",
+      "Select the clinic project for the committee.",
+      "Select the garden project for the committee."
+    ],
+    3
+  ]
+}

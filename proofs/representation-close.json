@@ -1,0 +1,916 @@
+{
+  "label": "representation-close",
+  "method": "close",
+  "args": [],
+  "caller": 0,
+  "contract": "0x02789e48c9dAF370A2b4d4160BfFEc3edb65e2DC",
+  "transaction": "0x6cac9b343c3909dd74513e5319135eb0bf0d4fecfa2ff45f19f1487e48040495",
+  "sender": "0x9008a9f2c58c91c35a60504b9cc4523feb45fd27",
+  "state_before": {
+    "ballots": [
+      {
+        "choices": [
+          {
+            "anchors": [
+              0
+            ],
+            "project": "library",
+            "vote": "APPROVE"
+          },
+          {
+            "anchors": [
+              1
+            ],
+            "project": "clinic",
+            "vote": "APPROVE"
+          },
+          {
+            "anchors": [
+              2
+            ],
+            "project": "garden",
+            "vote": "APPROVE"
+          },
+          {
+            "anchors": [
+              3
+            ],
+            "project": "transit",
+            "vote": "REJECT"
+          }
+        ],
+        "sha256": "c892b929773aad7e95d99a825fe7640c484a3a55a8db550920e7d0c65c0d9cac",
+        "source": {
+          "statements": [
+            "I explicitly approve selecting the library project for this committee.",
+            "I explicitly approve selecting the clinic project for this committee.",
+            "I explicitly approve selecting the garden project for this committee.",
+            "I explicitly reject selecting the transit project for this committee."
+          ],
+          "voter": "amber"
+        },
+        "url": "https://raw.githubusercontent.com/gabrieladash123-bit/equal-purse/4bada07e9ccfdac31ae2739d090f7d6d69cd3269/ballots/representation-amber.json",
+        "voter": "amber"
+      },
+      {
+        "choices": [
+          {
+            "anchors": [
+              0
+            ],
+            "project": "library",
+            "vote": "APPROVE"
+          },
+          {
+            "anchors": [
+              1
+            ],
+            "project": "clinic",
+            "vote": "APPROVE"
+          },
+          {
+            "anchors": [
+              2
+            ],
+            "project": "garden",
+            "vote": "APPROVE"
+          },
+          {
+            "anchors": [
+              3
+            ],
+            "project": "transit",
+            "vote": "REJECT"
+          }
+        ],
+        "sha256": "6a9b20c1d3a73a13da6ed3956e1fc2f8494d4f8da922d545d3006dea19431374",
+        "source": {
+          "statements": [
+            "I explicitly approve selecting the library project for this committee.",
+            "I explicitly approve selecting the clinic project for this committee.",
+            "I explicitly approve selecting the garden project for this committee.",
+            "I explicitly reject selecting the transit project for this committee."
+          ],
+          "voter": "cobalt"
+        },
+        "url": "https://raw.githubusercontent.com/gabrieladash123-bit/equal-purse/4bada07e9ccfdac31ae2739d090f7d6d69cd3269/ballots/representation-cobalt.json",
+        "voter": "cobalt"
+      },
+      {
+        "choices": [
+          {
+            "anchors": [
+              0
+            ],
+            "project": "library",
+            "vote": "APPROVE"
+          },
+          {
+            "anchors": [
+              1
+            ],
+            "project": "clinic",
+            "vote": "APPROVE"
+          },
+          {
+            "anchors": [
+              2
+            ],
+            "project": "garden",
+            "vote": "APPROVE"
+          },
+          {
+            "anchors": [
+              3
+            ],
+            "project": "transit",
+            "vote": "REJECT"
+          }
+        ],
+        "sha256": "ff44821f14f2c2a76bf0c2b76df1620373375b454e3be711e1a2a3997a4945f1",
+        "source": {
+          "statements": [
+            "I explicitly approve selecting the library project for this committee.",
+            "I explicitly approve selecting the clinic project for this committee.",
+            "I explicitly approve selecting the garden project for this committee.",
+            "I explicitly reject selecting the transit project for this committee."
+          ],
+          "voter": "jade"
+        },
+        "url": "https://raw.githubusercontent.com/gabrieladash123-bit/equal-purse/4bada07e9ccfdac31ae2739d090f7d6d69cd3269/ballots/representation-jade.json",
+        "voter": "jade"
+      },
+      {
+        "choices": [
+          {
+            "anchors": [
+              0
+            ],
+            "project": "library",
+            "vote": "APPROVE"
+          },
+          {
+            "anchors": [
+              1
+            ],
+            "project": "clinic",
+            "vote": "APPROVE"
+          },
+          {
+            "anchors": [
+              2
+            ],
+            "project": "garden",
+            "vote": "APPROVE"
+          },
+          {
+            "anchors": [
+              3
+            ],
+            "project": "transit",
+            "vote": "REJECT"
+          }
+        ],
+        "sha256": "a41c6153ccf90fd710fc5174744b529dde43b82da0bd30fdb1de1c41b92edd98",
+        "source": {
+          "statements": [
+            "I explicitly approve selecting the library project for this committee.",
+            "I explicitly approve selecting the clinic project for this committee.",
+            "I explicitly approve selecting the garden project for this committee.",
+            "I explicitly reject selecting the transit project for this committee."
+          ],
+          "voter": "ochre"
+        },
+        "url": "https://raw.githubusercontent.com/gabrieladash123-bit/equal-purse/4bada07e9ccfdac31ae2739d090f7d6d69cd3269/ballots/representation-ochre.json",
+        "voter": "ochre"
+      },
+      {
+        "choices": [
+          {
+            "anchors": [
+              0
+            ],
+            "project": "library",
+            "vote": "REJECT"
+          },
+          {
+            "anchors": [
+              1
+            ],
+            "project": "clinic",
+            "vote": "REJECT"
+          },
+          {
+            "anchors": [
+              2
+            ],
+            "project": "garden",
+            "vote": "REJECT"
+          },
+          {
+            "anchors": [
+              3
+            ],
+            "project": "transit",
+            "vote": "APPROVE"
+          }
+        ],
+        "sha256": "903b6865179b98df7a018ac2e2dba87120c010252c8551fd7c6a76463fcb95d7",
+        "source": {
+          "statements": [
+            "I explicitly reject selecting the library project for this committee.",
+            "I explicitly reject selecting the clinic project for this committee.",
+            "I explicitly reject selecting the garden project for this committee.",
+            "I explicitly approve selecting the transit project for this committee."
+          ],
+          "voter": "silver"
+        },
+        "url": "https://raw.githubusercontent.com/gabrieladash123-bit/equal-purse/4bada07e9ccfdac31ae2739d090f7d6d69cd3269/ballots/representation-silver.json",
+        "voter": "silver"
+      },
+      {
+        "choices": [
+          {
+            "anchors": [
+              0
+            ],
+            "project": "library",
+            "vote": "REJECT"
+          },
+          {
+            "anchors": [
+              1
+            ],
+            "project": "clinic",
+            "vote": "REJECT"
+          },
+          {
+            "anchors": [
+              2
+            ],
+            "project": "garden",
+            "vote": "REJECT"
+          },
+          {
+            "anchors": [
+              3
+            ],
+            "project": "transit",
+            "vote": "APPROVE"
+          }
+        ],
+        "sha256": "cb3b7bc608a2867fcadea420ba2057324d0019904177969ccd19b056e435da86",
+        "source": {
+          "statements": [
+            "I explicitly reject selecting the library project for this committee.",
+            "I explicitly reject selecting the clinic project for this committee.",
+            "I explicitly reject selecting the garden project for this committee.",
+            "I explicitly approve selecting the transit project for this committee."
+          ],
+          "voter": "violet"
+        },
+        "url": "https://raw.githubusercontent.com/gabrieladash123-bit/equal-purse/4bada07e9ccfdac31ae2739d090f7d6d69cd3269/ballots/representation-violet.json",
+        "voter": "violet"
+      }
+    ],
+    "closed": false,
+    "projects": [
+      {
+        "id": "library",
+        "meaning": "Select the library project for the committee."
+      },
+      {
+        "id": "clinic",
+        "meaning": "Select the clinic project for the committee."
+      },
+      {
+        "id": "garden",
+        "meaning": "Select the garden project for the committee."
+      },
+      {
+        "id": "transit",
+        "meaning": "Select the transit project for the committee."
+      }
+    ],
+    "repository": "gabrieladash123-bit/equal-purse",
+    "result": {},
+    "seats": 3,
+    "voters": [
+      {
+        "id": "amber",
+        "wallet": "0x9008a9f2c58c91c35a60504b9cc4523feb45fd27"
+      },
+      {
+        "id": "cobalt",
+        "wallet": "0x1d93abb3351e8c16f59d1d63053c7a4594ca0a4e"
+      },
+      {
+        "id": "jade",
+        "wallet": "0x7573265254b0fd7e97eb2827d54f8f9eaaa6391f"
+      },
+      {
+        "id": "ochre",
+        "wallet": "0xf56a27b37c2c09baeb7d18d21a1c74352982b85b"
+      },
+      {
+        "id": "silver",
+        "wallet": "0xb8f456f0b6d91640192d37cb5dc424126fbbba4a"
+      },
+      {
+        "id": "violet",
+        "wallet": "0x7b1cb0af0e5a4f4ed40d9bfc5948436e98997f58"
+      }
+    ]
+  },
+  "state": {
+    "ballots": [
+      {
+        "choices": [
+          {
+            "anchors": [
+              0
+            ],
+            "project": "library",
+            "vote": "APPROVE"
+          },
+          {
+            "anchors": [
+              1
+            ],
+            "project": "clinic",
+            "vote": "APPROVE"
+          },
+          {
+            "anchors": [
+              2
+            ],
+            "project": "garden",
+            "vote": "APPROVE"
+          },
+          {
+            "anchors": [
+              3
+            ],
+            "project": "transit",
+            "vote": "REJECT"
+          }
+        ],
+        "sha256": "c892b929773aad7e95d99a825fe7640c484a3a55a8db550920e7d0c65c0d9cac",
+        "source": {
+          "statements": [
+            "I explicitly approve selecting the library project for this committee.",
+            "I explicitly approve selecting the clinic project for this committee.",
+            "I explicitly approve selecting the garden project for this committee.",
+            "I explicitly reject selecting the transit project for this committee."
+          ],
+          "voter": "amber"
+        },
+        "url": "https://raw.githubusercontent.com/gabrieladash123-bit/equal-purse/4bada07e9ccfdac31ae2739d090f7d6d69cd3269/ballots/representation-amber.json",
+        "voter": "amber"
+      },
+      {
+        "choices": [
+          {
+            "anchors": [
+              0
+            ],
+            "project": "library",
+            "vote": "APPROVE"
+          },
+          {
+            "anchors": [
+              1
+            ],
+            "project": "clinic",
+            "vote": "APPROVE"
+          },
+          {
+            "anchors": [
+              2
+            ],
+            "project": "garden",
+            "vote": "APPROVE"
+          },
+          {
+            "anchors": [
+              3
+            ],
+            "project": "transit",
+            "vote": "REJECT"
+          }
+        ],
+        "sha256": "6a9b20c1d3a73a13da6ed3956e1fc2f8494d4f8da922d545d3006dea19431374",
+        "source": {
+          "statements": [
+            "I explicitly approve selecting the library project for this committee.",
+            "I explicitly approve selecting the clinic project for this committee.",
+            "I explicitly approve selecting the garden project for this committee.",
+            "I explicitly reject selecting the transit project for this committee."
+          ],
+          "voter": "cobalt"
+        },
+        "url": "https://raw.githubusercontent.com/gabrieladash123-bit/equal-purse/4bada07e9ccfdac31ae2739d090f7d6d69cd3269/ballots/representation-cobalt.json",
+        "voter": "cobalt"
+      },
+      {
+        "choices": [
+          {
+            "anchors": [
+              0
+            ],
+            "project": "library",
+            "vote": "APPROVE"
+          },
+          {
+            "anchors": [
+              1
+            ],
+            "project": "clinic",
+            "vote": "APPROVE"
+          },
+          {
+            "anchors": [
+              2
+            ],
+            "project": "garden",
+            "vote": "APPROVE"
+          },
+          {
+            "anchors": [
+              3
+            ],
+            "project": "transit",
+            "vote": "REJECT"
+          }
+        ],
+        "sha256": "ff44821f14f2c2a76bf0c2b76df1620373375b454e3be711e1a2a3997a4945f1",
+        "source": {
+          "statements": [
+            "I explicitly approve selecting the library project for this committee.",
+            "I explicitly approve selecting the clinic project for this committee.",
+            "I explicitly approve selecting the garden project for this committee.",
+            "I explicitly reject selecting the transit project for this committee."
+          ],
+          "voter": "jade"
+        },
+        "url": "https://raw.githubusercontent.com/gabrieladash123-bit/equal-purse/4bada07e9ccfdac31ae2739d090f7d6d69cd3269/ballots/representation-jade.json",
+        "voter": "jade"
+      },
+      {
+        "choices": [
+          {
+            "anchors": [
+              0
+            ],
+            "project": "library",
+            "vote": "APPROVE"
+          },
+          {
+            "anchors": [
+              1
+            ],
+            "project": "clinic",
+            "vote": "APPROVE"
+          },
+          {
+            "anchors": [
+              2
+            ],
+            "project": "garden",
+            "vote": "APPROVE"
+          },
+          {
+            "anchors": [
+              3
+            ],
+            "project": "transit",
+            "vote": "REJECT"
+          }
+        ],
+        "sha256": "a41c6153ccf90fd710fc5174744b529dde43b82da0bd30fdb1de1c41b92edd98",
+        "source": {
+          "statements": [
+            "I explicitly approve selecting the library project for this committee.",
+            "I explicitly approve selecting the clinic project for this committee.",
+            "I explicitly approve selecting the garden project for this committee.",
+            "I explicitly reject selecting the transit project for this committee."
+          ],
+          "voter": "ochre"
+        },
+        "url": "https://raw.githubusercontent.com/gabrieladash123-bit/equal-purse/4bada07e9ccfdac31ae2739d090f7d6d69cd3269/ballots/representation-ochre.json",
+        "voter": "ochre"
+      },
+      {
+        "choices": [
+          {
+            "anchors": [
+              0
+            ],
+            "project": "library",
+            "vote": "REJECT"
+          },
+          {
+            "anchors": [
+              1
+            ],
+            "project": "clinic",
+            "vote": "REJECT"
+          },
+          {
+            "anchors": [
+              2
+            ],
+            "project": "garden",
+            "vote": "REJECT"
+          },
+          {
+            "anchors": [
+              3
+            ],
+            "project": "transit",
+            "vote": "APPROVE"
+          }
+        ],
+        "sha256": "903b6865179b98df7a018ac2e2dba87120c010252c8551fd7c6a76463fcb95d7",
+        "source": {
+          "statements": [
+            "I explicitly reject selecting the library project for this committee.",
+            "I explicitly reject selecting the clinic project for this committee.",
+            "I explicitly reject selecting the garden project for this committee.",
+            "I explicitly approve selecting the transit project for this committee."
+          ],
+          "voter": "silver"
+        },
+        "url": "https://raw.githubusercontent.com/gabrieladash123-bit/equal-purse/4bada07e9ccfdac31ae2739d090f7d6d69cd3269/ballots/representation-silver.json",
+        "voter": "silver"
+      },
+      {
+        "choices": [
+          {
+            "anchors": [
+              0
+            ],
+            "project": "library",
+            "vote": "REJECT"
+          },
+          {
+            "anchors": [
+              1
+            ],
+            "project": "clinic",
+            "vote": "REJECT"
+          },
+          {
+            "anchors": [
+              2
+            ],
+            "project": "garden",
+            "vote": "REJECT"
+          },
+          {
+            "anchors": [
+              3
+            ],
+            "project": "transit",
+            "vote": "APPROVE"
+          }
+        ],
+        "sha256": "cb3b7bc608a2867fcadea420ba2057324d0019904177969ccd19b056e435da86",
+        "source": {
+          "statements": [
+            "I explicitly reject selecting the library project for this committee.",
+            "I explicitly reject selecting the clinic project for this committee.",
+            "I explicitly reject selecting the garden project for this committee.",
+            "I explicitly approve selecting the transit project for this committee."
+          ],
+          "voter": "violet"
+        },
+        "url": "https://raw.githubusercontent.com/gabrieladash123-bit/equal-purse/4bada07e9ccfdac31ae2739d090f7d6d69cd3269/ballots/representation-violet.json",
+        "voter": "violet"
+      }
+    ],
+    "closed": true,
+    "projects": [
+      {
+        "id": "library",
+        "meaning": "Select the library project for the committee."
+      },
+      {
+        "id": "clinic",
+        "meaning": "Select the clinic project for the committee."
+      },
+      {
+        "id": "garden",
+        "meaning": "Select the garden project for the committee."
+      },
+      {
+        "id": "transit",
+        "meaning": "Select the transit project for the committee."
+      }
+    ],
+    "repository": "gabrieladash123-bit/equal-purse",
+    "result": {
+      "remaining": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "status": "FILLED",
+      "steps": [
+        {
+          "affordable": [
+            {
+              "cap": [
+                3,
+                2
+              ],
+              "project": "library"
+            },
+            {
+              "cap": [
+                3,
+                2
+              ],
+              "project": "clinic"
+            },
+            {
+              "cap": [
+                3,
+                2
+              ],
+              "project": "garden"
+            },
+            {
+              "cap": [
+                3,
+                1
+              ],
+              "project": "transit"
+            }
+          ],
+          "cap": [
+            3,
+            2
+          ],
+          "payments": [
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "project": "library",
+          "remaining": [
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              3,
+              1
+            ]
+          ]
+        },
+        {
+          "affordable": [
+            {
+              "cap": [
+                3,
+                2
+              ],
+              "project": "clinic"
+            },
+            {
+              "cap": [
+                3,
+                2
+              ],
+              "project": "garden"
+            },
+            {
+              "cap": [
+                3,
+                1
+              ],
+              "project": "transit"
+            }
+          ],
+          "cap": [
+            3,
+            2
+          ],
+          "payments": [
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "project": "clinic",
+          "remaining": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              3,
+              1
+            ]
+          ]
+        },
+        {
+          "affordable": [
+            {
+              "cap": [
+                3,
+                1
+              ],
+              "project": "transit"
+            }
+          ],
+          "cap": [
+            3,
+            1
+          ],
+          "payments": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "project": "transit",
+          "remaining": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ]
+        }
+      ],
+      "unknown": [],
+      "winners": [
+        "library",
+        "clinic",
+        "transit"
+      ]
+    },
+    "seats": 3,
+    "voters": [
+      {
+        "id": "amber",
+        "wallet": "0x9008a9f2c58c91c35a60504b9cc4523feb45fd27"
+      },
+      {
+        "id": "cobalt",
+        "wallet": "0x1d93abb3351e8c16f59d1d63053c7a4594ca0a4e"
+      },
+      {
+        "id": "jade",
+        "wallet": "0x7573265254b0fd7e97eb2827d54f8f9eaaa6391f"
+      },
+      {
+        "id": "ochre",
+        "wallet": "0xf56a27b37c2c09baeb7d18d21a1c74352982b85b"
+      },
+      {
+        "id": "silver",
+        "wallet": "0xb8f456f0b6d91640192d37cb5dc424126fbbba4a"
+      },
+      {
+        "id": "violet",
+        "wallet": "0x7b1cb0af0e5a4f4ed40d9bfc5948436e98997f58"
+      }
+    ]
+  }
+}

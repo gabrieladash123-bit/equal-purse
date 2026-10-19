@@ -1,0 +1,35 @@
+{
+  "ballots": [],
+  "closed": false,
+  "projects": [
+    {
+      "id": "library",
+      "meaning": "Select the library project for the committee."
+    },
+    {
+      "id": "clinic",
+      "meaning": "Select the clinic project for the committee."
+    },
+    {
+      "id": "garden",
+      "meaning": "Select the garden project for the committee."
+    }
+  ],
+  "repository": "gabrieladash123-bit/equal-purse",
+  "result": {},
+  "seats": 2,
+  "voters": [
+    {
+      "id": "amber",
+      "wallet": "0x9008a9f2c58c91c35a60504b9cc4523feb45fd27"
+    },
+    {
+      "id": "cobalt",
+      "wallet": "0x1d93abb3351e8c16f59d1d63053c7a4594ca0a4e"
+    },
+    {
+      "id": "jade",
+      "wallet": "0x7573265254b0fd7e97eb2827d54f8f9eaaa6391f"
+    }
+  ]
+}

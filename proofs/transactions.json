@@ -1,0 +1,28 @@
+{
+  "source_sha256": "6377139473d89477b745221c8d1eda864c33cc3621c0429e8097ab95ee8da993",
+  "hashes": {
+    "representation-deployment": "0xc07b18bcc2bb68c9b24f4a7dab2bf2ad636eb3a0af61f05255c978de2ddd8dba",
+    "representation-early-close": "0x83f5d31da0ca21b5443a23c374b22a980281299f582c38510ae1731cb0cf8248",
+    "representation-cast-amber": "0xc60a8ce4cef4708a23d4245628eb450c6144e7478716fd87e2767f00d9ec3cbd",
+    "representation-duplicate": "0x20476ccc26c0f8c8c4f636fb8649a622692d281760be0dbe59460ad3119c5b44",
+    "representation-cast-cobalt": "0xc7d9938543a7c90e6e9abc6e45f686ddff24125a795421e2770256ce3b58430b",
+    "representation-cast-jade": "0x370edfd8d0d87273c5589e0d5b6aa2d4c050eaa1d3afd7b27ce3b74994080590",
+    "representation-cast-ochre": "0x9bff161a3be0834338cf319fbca301cff35cc8857abd1dad5c40923ed1541811",
+    "representation-cast-silver": "0x3e20a511df19c0314b61ad3583e983d36ba4909df174e94c06ac04d73da34141",
+    "representation-cast-violet": "0x53a23e517650c1ed7a46a7e3494f4b378fa39b7d07d9e5976f2d4d97b6fae212",
+    "representation-close": "0x6cac9b343c3909dd74513e5319135eb0bf0d4fecfa2ff45f19f1487e48040495",
+    "capped-payment-deployment": "0x21d8bac2c969d01a2ff703eca867d0d84f34e7ea7095ce42920c1c282fef70b7",
+    "capped-payment-cast-amber": "0xe75998856e55b3144f36aedaa6c7809929f50c4c6a6d277b1a45b4dde13a02fc",
+    "capped-payment-cast-cobalt": "0xa8605168c1517e121ffa3b0050f9b898d398db8ee24aee166b7952e4d59b2d4d",
+    "capped-payment-cast-jade": "0x92c5110f773c4891381b2d0d14a2c8e828205dee3fd7f5079c701e284aa34579",
+    "capped-payment-cast-ochre": "0x729307c0d3d8318712907c2861e043b5ade1457e0c92466c561df736ea2960b8",
+    "capped-payment-close": "0x951cf9e988bedc838377532cefb782f440c5545ad6236c73471b2625a5561fac",
+    "capped-payment-closed-again": "0xcb80ac7dadd0d9e8cbd82ce826f43ab5a0325f5ff615c477b8450ad360617c4c",
+    "conditional-consent-deployment": "0xc0dd5ffa04d73cb2232a880cb3740fe3fe1ab273c6755a90d2f1464c1806820a",
+    "conditional-consent-unregistered": "0x9bd4b41ae143f1227f210d080cc5775e127b6e9ffe98351bc6d49d51c371f45b",
+    "conditional-consent-cast-amber": "0x4e30283f45979531d7bdcec81198bfd562f6d4f494862f46ba62d1e05a5c7b85",
+    "conditional-consent-cast-cobalt": "0xaafce0cd336b9164905b5b31a3d6348b4a328002828b9d250e0fef6eff920af9",
+    "conditional-consent-cast-jade": "0xfd652dd279fa79792bd6b80e65efba9c3da77cb1192e7e2a07d83a0fea52320c",
+    "conditional-consent-close": "0x01f375a1148499bf1171565c03a18461fabbe7ed1513118144b9fba2cb124249"
+  }
+}

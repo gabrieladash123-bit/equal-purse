@@ -2,6 +2,8 @@
 
 A standalone GenLayer proportional committee selector. Voter-authorized prose ballots become independently verified approval decisions; exact rational equal-share budgets determine the winning committee.
 
+**Deployed on gasless StudioNet, chain 61999:** [`0x02789e48c9dAF370A2b4d4160BfFEc3edb65e2DC`](https://explorer-studio.genlayer.com/address/0x02789e48c9dAF370A2b4d4160BfFEc3edb65e2DC). [Deployment](https://explorer-studio.genlayer.com/tx/0xc07b18bcc2bb68c9b24f4a7dab2bf2ad636eb3a0af61f05255c978de2ddd8dba) · [Three instances and 23 verified receipts](proofs/README.md) · [Passing CI: 56 tests](https://github.com/gabrieladash123-bit/equal-purse/actions/runs/39223471987) · [Submission text](docs/submission.md).
+
 This is a new GenLayer implementation of the established **Method of Equal Shares**, not a claim to have invented the voting rule. Each voter starts with `k` virtual units, each project costs `n`, and supporters pay an equal cap subject to their remaining balances. The affordable project with the lowest cap wins next. Equal caps use immutable project order. There is no forced completion when remaining supporters cannot pay.
 
 ## Workflow
@@ -32,6 +34,7 @@ node scripts/check-scenarios.cjs
 - [Pinned contract](contracts/equal_purse.py)
 - [Consensus, exact arithmetic and trust model](docs/architecture.md)
 - [Direct tests](tests/direct/test_election.py)
+- [Testing layers and independent mathematical checks](docs/TESTING.md)
 - [Synthetic prose ballots](ballots)
 - [Deployment and scenario receipts](proofs/README.md)
 
